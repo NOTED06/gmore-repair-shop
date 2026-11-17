@@ -1,0 +1,6 @@
+# Block all direct browser access to the includes directory.
+# PHP can still include these files via the filesystem — only HTTP access is denied.
+<FilesMatch ".*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

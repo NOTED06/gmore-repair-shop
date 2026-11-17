@@ -1,0 +1,479 @@
+
+
+
+.empty-state-modern {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state-modern .empty-icon {
+    font-size: 4rem;
+    color: #e0e0e0;
+    margin-bottom: 1.5rem;
+}
+
+.empty-state-modern h3 {
+    color: #37474f;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.empty-state-modern p {
+    color: #78909c;
+    font-size: 1rem;
+}
+
+
+.stat-card.stat-total {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stat-card.stat-assigned {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.stat-card.stat-progress {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.stat-card.stat-completed {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+
+.modern-repair-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 4px solid #667eea;
+}
+
+.modern-repair-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+}
+
+.modern-repair-card .repair-card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modern-repair-card .repair-number {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.modern-repair-card .repair-number i {
+    font-size: 1rem;
+}
+
+.modern-repair-card .repair-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.modern-repair-card .repair-appliance {
+    padding: 1.5rem;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.modern-repair-card .repair-appliance h3 {
+    color: #37474f;
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.modern-repair-card .appliance-model {
+    color: #78909c;
+    font-size: 0.938rem;
+    margin: 0;
+}
+
+.modern-repair-card .model-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #e8eaf6 0%, #f3e5f5 100%);
+    color: #667eea;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.813rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    border: 1px solid #b39ddb;
+}
+
+.modern-repair-card .repair-problem {
+    padding: 1.25rem 1.5rem;
+    background: #fafafa;
+}
+
+.modern-repair-card .repair-problem h4 {
+    color: #546e7a;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 0.75rem 0;
+}
+
+.modern-repair-card .repair-problem p {
+    color: #37474f;
+    font-size: 0.938rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.modern-repair-card .repair-customer {
+    padding: 1.25rem 1.5rem;
+    border-top: 1px solid #f5f5f5;
+}
+
+.modern-repair-card .repair-customer h4 {
+    color: #546e7a;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 1rem 0;
+}
+
+.modern-repair-card .customer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modern-repair-card .detail-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #546e7a;
+    font-size: 0.938rem;
+}
+
+.modern-repair-card .detail-row i {
+    width: 20px;
+    color: #90a4ae;
+    font-size: 0.875rem;
+}
+
+.modern-repair-card .repair-meta {
+    padding: 1rem 1.5rem;
+    background: #fafafa;
+    border-top: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.modern-repair-card .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #78909c;
+    font-size: 0.875rem;
+}
+
+.modern-repair-card .meta-item i {
+    font-size: 0.813rem;
+}
+
+.modern-repair-card .repair-actions {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    gap: 0.75rem;
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+
+.modern-repair-card .btn-view {
+    flex: 1;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.modern-repair-card .btn-view:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.modern-repair-card .btn-update {
+    flex: 1;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.modern-repair-card .btn-update:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
+    cursor: pointer;
+}
+
+
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.status-dot.status-assigned {
+    background: #f5576c;
+    box-shadow: 0 0 0 3px rgba(245, 87, 108, 0.2);
+}
+
+.status-dot.status-in-progress {
+    background: #4facfe;
+    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.2);
+}
+
+.status-dot.status-completed {
+    background: #43e97b;
+    box-shadow: 0 0 0 3px rgba(67, 233, 123, 0.2);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .modern-repair-card .repair-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .modern-repair-card .repair-actions {
+        flex-direction: column;
+    }
+    
+    .modern-repair-card .btn-view,
+    .modern-repair-card .btn-update {
+        width: 100%;
+    }
+}
+
+
+.status-update-info {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.status-update-info .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.status-update-info .info-item:last-child {
+    border-bottom: none;
+}
+
+.status-update-info strong {
+    color: #37474f;
+    font-weight: 600;
+}
+
+.status-update-info span {
+    color: #546e7a;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.375rem 0.875rem;
+    border-radius: 20px;
+    font-size: 0.813rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    color: #37474f;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group .required {
+    color: #f5576c;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.938rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-control:disabled {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+select.form-control {
+    cursor: pointer;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
+
+.btn-secondary {
+    background: #78909c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #546e7a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(120, 144, 156, 0.3);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+
+.status-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.status-modal.active {
+    display: flex !important;
+}
+
+.status-modal-content {
+    background: white;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10001;
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}

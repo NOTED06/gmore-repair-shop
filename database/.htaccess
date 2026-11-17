@@ -1,0 +1,6 @@
+# Block all direct browser access to the database directory.
+# PHP can still read these files via the filesystem — only HTTP access is denied.
+<FilesMatch ".*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

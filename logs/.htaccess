@@ -1,0 +1,6 @@
+# Deny direct web access to the logs directory.
+# PHP writes to these files via the filesystem — HTTP access is not needed.
+<FilesMatch ".*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,6 @@
+# Block all direct browser access to the config directory.
+# PHP can still read config.php via the filesystem — only HTTP access is denied.
+<FilesMatch ".*">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
